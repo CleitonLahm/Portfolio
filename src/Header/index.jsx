@@ -1,11 +1,35 @@
 import vector from '../imgs/Vector.svg'
+import { SectionName, HeaderContent, List, ListItem, Name } from './styles'
 
 const Header = () => {
   return (
-    <header>
-      <h1><img src={vector} alt="" />Cleiton Lahm</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt iusto nisi, veritatis optio exercitationem recusandae facere assumenda inventore eius explicabo enim nulla quo hic quam fugit quasi cupiditate nostrum aliquid?</p>
-    </header>
+    <HeaderContent>
+      <SectionName>
+        <img src={vector} alt="estrela" />
+        <Name>Cleiton Lahm</Name>
+      </SectionName>
+      <List>
+        <li>
+          <ListItem href="#">Sobre mim</ListItem>
+        </li>
+        <li>
+          <ListItem href="#">Skills</ListItem>
+        </li>
+        <li>
+          <ListItem href="#">Hobbies</ListItem>
+        </li>
+        <li>
+          <ListItem href="#">Formação</ListItem>
+        </li>
+        <li>
+          <ListItem href="#">Projetos</ListItem>
+        </li>
+        <li>
+          <ListItem href="#">cleijllahm@gmail.com</ListItem>
+        </li>
+      </List>
+    </HeaderContent>
+
   )
 }
 
