@@ -8,7 +8,7 @@ import { ContainerCards, Card, SectionTitle, NameTech } from './styles'
 const Cards = () => {
   return (
     <>
-      <SectionTitle>Skills</SectionTitle>
+      <SectionTitle id='skills'>Skills</SectionTitle>
       <ContainerCards>
         <Card>
           <FaHtml5 />
@@ -56,7 +56,7 @@ const Cards = () => {
         </Card>
       </ContainerCards>
 
-      <SectionTitle>Hobbies</SectionTitle>
+      <SectionTitle id='hobbies'>Hobbies</SectionTitle>
       <ContainerCards>
       <Card>
         <FaGamepad />

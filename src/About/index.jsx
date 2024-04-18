@@ -8,7 +8,7 @@ const About = () => {
       <AboutContainer>
         <div>
           <Title>Olá, meu nome é Cleiton e sou desenvolvedor Full Stack</Title>
-          <Description>Sou formado em Análise e Desenvolvimento de Sistemas, e atualmente estou participando do projeto Oracle ONE na alura e cursando desenvolvedor Full Stack no DevClub.</Description>
+          <Description>Sou formado em Análise e Desenvolvimento de Sistemas, e atualmente estou participando do projeto Oracle ONE na alura e cursando desenvolvimento Full Stack no DevClub.</Description>
           <SocialsList>
             <li>
               <SocialsListItem href="#">Github</SocialsListItem>

@@ -3,7 +3,7 @@ import tel from '../imgs/tel.png'
 
 const Contact = () => {
   return (
-    <Container>
+    <Container id="contact">
       <img src={tel} alt="telefone" />
       <ContactContainer>
         <ContactTitle>Contato</ContactTitle>

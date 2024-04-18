@@ -13,19 +13,19 @@ const Header = () => {
           <ListItem href="#">Sobre mim</ListItem>
         </li>
         <li>
-          <ListItem href="#">Skills</ListItem>
+          <ListItem href="#skills">Skills</ListItem>
         </li>
         <li>
-          <ListItem href="#">Hobbies</ListItem>
+          <ListItem href="#hobbies">Hobbies</ListItem>
         </li>
         <li>
-          <ListItem href="#">Formação</ListItem>
+          <ListItem href="#formations">Formação</ListItem>
         </li>
         <li>
-          <ListItem href="#">Projetos</ListItem>
+          <ListItem href="#projects">Projetos</ListItem>
         </li>
         <li>
-          <ListItem href="#">cleijllahm@gmail.com</ListItem>
+          <ListItem href="#contact">cleijllahm@gmail.com</ListItem>
         </li>
       </List>
     </HeaderContent>

@@ -6,7 +6,7 @@ import ebac from '../imgs/ebac.png'
 
 const Formations = () => {
   return (
-    <FormationsContainer>
+    <FormationsContainer id='formations'>
       <Title>Formação acadêmica</Title>
       <Cards>
         <Card>

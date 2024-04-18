@@ -3,13 +3,15 @@ import About from "./About"
 import Cards from "./Cards"
 import Contact from "./Contact"
 import Experiences from "./Experience"
+import Footer from "./Footer"
 import Formations from "./Formations"
 import Header from "./Header"
 
 function App() {
   
   return (
-    <div className="container">
+    <>
+      <div className="container">
       <GlobalStyle />
       <Header />
       <About />
@@ -17,7 +19,9 @@ function App() {
       <Formations />
       <Experiences />
       <Contact />
-    </div>
+      </div>
+      <Footer />
+    </>
   )
 }
 
