@@ -22,11 +22,11 @@ export const Cards = styled.div`
 
 export const Card = styled.div`
   background-color: #ffffff;
-  width: 300px;
+  width: 320px;
   height: 340px;
   padding: 16px;
   display: flex; 
-  justify-content: center; 
+  justify-content: space-between; 
   align-items: center;
   flex-direction: column; 
   gap: 10px;
@@ -48,6 +48,11 @@ export const FormationYear = styled.span`
 `
 
 export const Imagem = styled.img`
-  width: 220px;
-  height: 180px;
+  max-width: 100%;
 `;
+
+export const Techs = styled.p`
+  font-size: 12px;
+  font-weight: 700;
+  color: #464646;
+`
