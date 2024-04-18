@@ -1,5 +1,6 @@
 import GlobalStyle from "../GlobalStyles"
 import About from "./About"
+import Cards from "./Cards"
 import Header from "./Header"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <About />
+      <Cards />
     </div>
   )
 }

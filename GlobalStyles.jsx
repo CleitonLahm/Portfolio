@@ -10,6 +10,10 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
 
+  body {
+    background-color: #f5f5f5;
+  }
+
   .container {
     max-width: 1136px;
     margin: 0 auto;
