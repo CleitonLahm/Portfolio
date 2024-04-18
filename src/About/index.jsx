@@ -1,5 +1,7 @@
 import seta from '../imgs/seta.png'
 import foto from '../imgs/foto_perfil.jpg'
+import cv from '../About/cv.pdf'
+
 import { AboutContainer, SocialsList, Title, SocialsListItem, Description, Foto, DescriptionContainer, SubTitle, SubtitleDescription } from './styles'
 
 const About = () => {
@@ -11,19 +13,19 @@ const About = () => {
           <Description>Sou formado em Análise e Desenvolvimento de Sistemas, e atualmente estou participando do projeto Oracle ONE na alura e cursando desenvolvimento Full Stack no DevClub.</Description>
           <SocialsList>
             <li>
-              <SocialsListItem href="#">Github</SocialsListItem>
+              <SocialsListItem href="https://github.com/CleitonLahm" target='_blank'>Github</SocialsListItem>
               <img src={seta} alt="seta" />
             </li>
             <li>
-              <SocialsListItem href="#">Linkedin</SocialsListItem>
+              <SocialsListItem href="https://www.linkedin.com/in/cleitonlahm/" target='_blank'>Linkedin</SocialsListItem>
               <img src={seta} alt="seta" />
             </li>
             <li>
-              <SocialsListItem href="#">Instagram</SocialsListItem>
+              <SocialsListItem href="https://www.instagram.com/clei_lahmm/" target='_blank'>Instagram</SocialsListItem>
               <img src={seta} alt="seta" />
             </li>
             <li>
-              <SocialsListItem href="#">Currículo</SocialsListItem>
+              <SocialsListItem href={cv} download>Baixar currículo</SocialsListItem>
               <img src={seta} alt="seta" />
             </li>
           </SocialsList>
