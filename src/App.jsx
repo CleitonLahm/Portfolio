@@ -1,6 +1,7 @@
 import GlobalStyle from "../GlobalStyles"
 import About from "./About"
 import Cards from "./Cards"
+import Contact from "./Contact"
 import Experiences from "./Experience"
 import Formations from "./Formations"
 import Header from "./Header"
@@ -15,6 +16,7 @@ function App() {
       <Cards />
       <Formations />
       <Experiences />
+      <Contact />
     </div>
   )
 }
